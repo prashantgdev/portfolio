@@ -4,14 +4,15 @@ import { ArrowUpRight, Github } from "lucide-react";
 export function ProjectCard({ project }) {
   return (
     <article className="project-card">
-      <div className="project-visual">
+      {/* <div className="project-visual">
         <span className="project-number">{project.number}</span>
         <div className="visual-lines" aria-hidden="true"><i /><i /><i /><i /></div>
         <div className="visual-window" aria-hidden="true">
           <div className="window-bar"><b /><b /><b /></div>
           <div className="window-content"><span /><span /><span /><span /><span /></div>
         </div>
-      </div>
+      </div> */}
+      <img src={`src/images/${project.number}.png`} className="project-visual" />
 
       <div className="project-info">
         <div className="project-meta"><span>{project.type}</span><span>{project.number}</span></div>

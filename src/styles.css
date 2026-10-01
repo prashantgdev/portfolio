@@ -298,11 +298,11 @@ h2 em {
   box-shadow: 8px 9px 0 #dfddd4;
 }
 .project-visual {
-  height: 260px;
+  width: 100%;
   background: #e6e4dc;
   position: relative;
   overflow: hidden;
-  padding: 20px;
+  padding: 15px;
 }
 .project-number {
   font:
@@ -757,9 +757,6 @@ footer {
   }
   .section-heading h2 {
     font-size: 42px;
-  }
-  .project-visual {
-    height: 230px;
   }
   .contact-section h2 {
     font-size: 56px;

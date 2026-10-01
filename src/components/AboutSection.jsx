@@ -19,7 +19,7 @@ export function AboutSection({ developer }) {
               {paragraph.text}
             </p>
           ))}
-          <div className="about-signature">— {developer.name.split(" ")[0]}</div>
+          <div className="about-signature">— {developer.name.split(" ")[0]} {developer.name.split(" ")[1].split("")[0]}.</div>
         </div>
       </div>
     </section>
