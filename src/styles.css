@@ -474,6 +474,13 @@ h2 em {
   border: 1px solid var(--line);
   padding: 28px;
   min-height: 275px;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+.stack-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 8px 9px 0 #dfddd4;
 }
 .stack-card svg {
   margin-bottom: 38px;
@@ -614,6 +621,13 @@ h2 em {
   font:
     11px "DM Mono",
     monospace;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+.socials a:hover {
+  transform: translateY(-3px);
+  box-shadow: 3px 4px 0 #dfddd4;
 }
 footer {
   max-width: 1180px;
